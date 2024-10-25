@@ -234,7 +234,7 @@ public class Curso {
     public void eliminarCurso(ArrayList<Curso> lista) {
         boolean encontrado = false;
         if (lista.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "No hay cursos disponibles para eliminar.");
+            JOptionPane.showMessageDialog(null, "No hay cursos disponibles para eliminar. Le invitamos a agregar nuevos cursos.");
 
         } else {
             ListIterator<Curso> iterator = lista.listIterator();
@@ -316,7 +316,7 @@ public class Curso {
             //JOptionPane.showMessageDialog(null, sb);
         } else {
 
-            JOptionPane.showMessageDialog(null, "Lista vacia. No hay cursos a mostrar. Lo invitamos a agregar nuevos cursos");
+            JOptionPane.showMessageDialog(null, "No hay cursos a mostrar. Lo invitamos a agregar nuevos cursos");
         }
 
     }
@@ -363,7 +363,7 @@ public class Curso {
                 JOptionPane.showMessageDialog(null, "El curso " + nameCurso + " no se encuentra");
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Lista vacia no se pueden buscar cursos. Te initamos a agregar nuevos cursos.");
+            JOptionPane.showMessageDialog(null, "No hay cursos disponibles. Lo invitamos a agregar nuevos cursos");
 
         }
     }
@@ -401,7 +401,7 @@ public class Curso {
                 }
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Lista vacia. No se pueden eliminar alumnos. LO INVITAMOS A AGREGAR NUEVOS CURSOS");
+            JOptionPane.showMessageDialog(null, "No se pueden eliminar alumnos. Lo invitamos a agregar nuevos cursos.");
         }
 
     }
@@ -445,7 +445,7 @@ public class Curso {
             }
 
         } else {
-            JOptionPane.showMessageDialog(null, "Lista vaica. No se pueden buscar estudiantes. Lo invitamos a agregar nuevos cursos");
+            JOptionPane.showMessageDialog(null, "No se pueden buscar estudiantes. Lo invitamos a agregar nuevos cursos");
         }
 
     }
@@ -463,7 +463,7 @@ public class Curso {
                 }
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Lista vacia. No se pueden agregar estudiantes. Lo invitamos a agregar nuevos cursos.");
+            JOptionPane.showMessageDialog(null, "No se pueden agregar estudiantes. Lo invitamos a agregar nuevos cursos.");
         }
 
     }
@@ -491,7 +491,7 @@ public class Curso {
 
             }
         } else {
-            JOptionPane.showMessageDialog(null, "Lista vacia. No se pueden buscar profesores. Lo invitamos a agregar nuevos cursos");
+            JOptionPane.showMessageDialog(null, "No se pueden buscar profesores. Lo invitamos a agregar nuevos cursos");
         }
     }
 
